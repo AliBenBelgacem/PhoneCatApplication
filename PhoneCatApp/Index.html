@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html ng-app="phonecatApp">
+<head>
+    <script src="Scripts/angular.js"></script>
+    <script src="MyScripts/app.js"></script>
+</head>
+<body ng-controller="PhoneListController">
+
+    <ul>
+        <li ng-repeat="phone in phones | orderBy: 'name'">
+            <span>{{phone.name}}</span>
+            <p>{{phone.snippet}}</p>
+        </li>
+    </ul>
+
+</body>
+</html>
