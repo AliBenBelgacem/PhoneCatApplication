@@ -67,6 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="app\app.module.js" />
+    <Content Include="app\phone-list\phone-list.component.js" />
+    <Content Include="app\phone-list\phone-list.component.spec.js" />
+    <Content Include="app\phone-list\phone-list.module.js" />
+    <Content Include="app\phone-list\phone-list.template.html" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-route.min.js.map" />
     <None Include="Web.Debug.config">
@@ -78,7 +83,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index.html" />
-    <Content Include="MyScripts\app.js" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular-route.js" />
     <Content Include="Scripts\angular-route.min.js" />
